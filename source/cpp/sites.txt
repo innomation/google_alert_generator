@@ -1,0 +1,71 @@
+# Big Tech
+Adobe,careers.adobe.com/us/en/job/
+Amazon,amazon.jobs/en/jobs/
+Apple,jobs.apple.com/en-ca/details/
+Atlassian,atlassian.com/company/careers/details/
+Automattic,automattic.com/work-with-us/
+Cisco,jobs.cisco.com/jobs/
+Discord,discord.com/jobs/
+Docker,boards.greenhouse.io/docker/jobs/
+Dropbox,jobs.dropbox.com/listing/
+Elastic,jobs.elastic.co/jobs/engineering/
+Etsy,careers.etsy.com/jobs/
+Facebook,metacareers.com/jobs/
+GitHub,github.careers/careers-home/job/
+GitLab,boards.greenhouse.io/gitlab/jobs/
+Google,google.com/about/careers/applications/jobs/results/
+Grafana Labs,boards.greenhouse.io/grafanalabs/jobs/
+Hashicorp,hashicorp.com/en/career/
+Microsoft,jobs.careers.microsoft.com/global/en/job/
+MongoDB,mongodb.com/careers/jobs/
+NVIDIA,nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/
+Red Hat,redhat.wd5.myworkdayjobs.com/en-US/jobs/details/
+Shopify,shopify.com/careers/search/jobs/
+Twitch,careers.twitch.com/en/career-posts/
+Veeva,careers.veeva.com/job/
+Zapier,jobs.ashbyhq.com/zapier/
+# Crypto
+Coinbase,coinbase.com/careers/positions/
+# Education
+Capilano University,jobs-capilanou.peopleadmin.com/postings/
+# Local
+Arc'teryx,jobs.lever.co/arcteryx.com/
+Vail Resorts,jobs.vailresortscareers.com/whistler/job/
+# Media & Film
+Atomic Cartoons,boards.greenhouse.io/atomiccartoons/jobs/
+Disney,jobs.disneycareers.com/job/
+DNeg,dneg.com/join-us/
+Image Engine,imageengine.bamboohr.com/careers/
+Mainframe Studios,mainframe.bamboohr.com/careers/
+NBC Universal,jobs.smartrecruiters.com/NBCUniversal3/
+Netflix,jobs.netflix.com/search
+Paramount,careers.paramount.com/job/
+Sony Global,sonyglobal.wd1.myworkdayjobs.com/en-US/SonyGlobalCareers/job/
+Sony Pictures Imageworks,imageworks.com/job-postings/
+Warner Bros. Discovery,careers.wbd.com/global/en/job/
+Zoic,zoicstudios.applytojob.com/apply/
+# Video Gaming
+Activision,careers.activision.com/job/
+Atari,boards.greenhouse.io/atariinc/jobs/
+Bandai,bandainamcoent.com/careers/
+Behaviour Interactive,bhvr.com/career-single/
+Bungie,boards.greenhouse.io/bungie/jobs/
+Electronic Arts,ea.gr8people.com/
+Epic Games,epicgames.com/site/en-US/careers/jobs/
+Jam City,jobs.lever.co/jamcity/
+Konami,konami.com/games/ca/en/jobs/
+Naughty Dog,naughtydog.com/careers
+Nintendo,careers.nintendo.com/nocl/job-openings/job/
+PlayStation,playstation.wd1.myworkdayjobs.com/PS_Careers/job/
+Relic Entertainment,relicentertainment.bamboohr.com/careers/
+Riot Games,riotgames.com/en/work-with-us/job/
+Roblox,careers.roblox.com/jobs/
+Rockstar Games,rockstargames.com/careers/openings/position/
+Sega,careers.sega.co.uk/vacancies/
+Scopely,boards.greenhouse.io/scopely/jobs/
+Square Enix,apply.workable.com/square-enix/
+Take Two Interactive,boards.greenhouse.io/taketwo/jobs/
+Tencent,tencent.wd1.myworkdayjobs.com/Tencent_Careers/job/
+Ubisoft,ubisoft.com/en-us/company/careers/search/
+Unity,unity.com/careers/positions/
+Zenimax,jobs.zenimax.com/requisitions/view/

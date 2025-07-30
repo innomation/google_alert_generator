@@ -1,0 +1,37 @@
+# CMakeLists.txt for the Google Alerts Query Generator
+
+# --- Project Setup ---
+# Set the minimum version of CMake required to build this project.
+# 3.20 is a good baseline for modern C++ features.
+cmake_minimum_required(VERSION 3.20)
+
+# Define the project name. This will be the name of the solution or project file
+# generated for your IDE (e.g., generate_alerts.sln).
+project(GoogleAlertsGenerator)
+
+# --- Compiler and Language Standards ---
+# Set the C++ standard for the entire project.
+# We require C++20 because the source code uses std::format.
+set(CMAKE_CXX_STANDARD 20)
+set(CMAKE_CXX_STANDARD_REQUIRED ON)
+set(CMAKE_CXX_EXTENSIONS OFF)
+
+# --- Target Definition ---
+# Add the executable target. CMake will automatically find main.cpp
+# and compile it to create an executable named 'generate_alerts'.
+add_executable(generate_alerts main.cpp)
+
+# You can add more source files here if your project grows, like so:
+# add_executable(generate_alerts main.cpp another_file.cpp yet_another.cpp)
+
+# --- Optional: Compiler Warnings (Good Practice) ---
+# This block enables common compiler warnings for better code quality.
+# It's wrapped in a check to ensure it works with common compilers (MSVC, GCC, Clang).
+if(MSVC)
+    # For Microsoft Visual C++
+    target_compile_options(generate_alerts PRIVATE /W4)
+else()
+    # For GCC and Clang
+    target_compile_options(generate_alerts PRIVATE -Wall -Wextra -pedantic)
+endif()
+
