@@ -1,0 +1,41 @@
+# --- General ---
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
+# --- IDEs and Editors ---
+# JetBrains IDEs (CLion, PyCharm)
+.idea/
+
+# VS Code
+.vscode/
+
+# --- Python ---
+# Virtual Environments
+.venv/
+venv/
+env/
+
+# Python bytecode
+__pycache__/
+*.pyc
+
+# --- C++ ---
+# Build directories (generic)
+build/
+cmake-build-*/
+
+# Compiled Object files
+*.o
+*.obj
+
+# Executables
+*.exe
+*.out
+generate_alerts
+
+# --- Project Specific ---
+# Ignore the script's output file
+generated_google_alerts.txt
+
+
