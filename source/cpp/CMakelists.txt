@@ -19,7 +19,7 @@ set(CMAKE_CXX_EXTENSIONS OFF)
 # --- Target Definition ---
 # Add the executable target. CMake will automatically find main.cpp
 # and compile it to create an executable named 'generate_alerts'.
-add_executable(generate_alerts main.cpp)
+add_executable(generate_alerts generate_alerts.cpp)
 
 # You can add more source files here if your project grows, like so:
 # add_executable(generate_alerts main.cpp another_file.cpp yet_another.cpp)

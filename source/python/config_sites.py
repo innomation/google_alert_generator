@@ -22,6 +22,7 @@ career_sites = [
     ("Google", "google.com/about/careers/applications/jobs/results/"),
     ("Grafana Labs", "job-boards.greenhouse.io/grafanalabs/jobs/"),
     ("Hashicorp", "hashicorp.com/en/career/"),
+    ("IBM", "/ibmglobal.avature.net"),
     ("Microsoft", "jobs.careers.microsoft.com/global/en/job/"),
     ("MongoDB", "mongodb.com/careers/jobs/"),
     ("NVIDIA", "nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/"),
