@@ -32,6 +32,9 @@ career_sites = [
     ("Veeva", "careers.veeva.com/job/"),
     ("Zapier", "jobs.ashbyhq.com/zapier/"),
 
+    # Canada
+    ("Honeycomb", "https://job-boards.greenhouse.io/honeycomb/jobs/"),
+
     # Crypto
     ("Coinbase", "coinbase.com/careers/positions/"),
 

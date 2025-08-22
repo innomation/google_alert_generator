@@ -5,6 +5,7 @@
 #include <utility> // For std::pair
 #include <sstream> // For std::stringstream
 #include <format>  // For std::format (C++20)
+#include <string_view> // Make sure to include this header
 
 // A structure to hold company information, clearer than std::pair
 struct SiteInfo {
@@ -44,10 +45,10 @@ int main() {
 
     // --- 2. QUERY TEMPLATES ---
     // Using C++ raw string literals R"()" for clean multi-line strings
-    const std::string mgmt_search_query = R"(site:{} ("Engineering" OR "SRE" OR "Site Reliability" OR "DevOps" OR "Platform" OR "Infrastructure" OR "Observability" OR "Production Platform") AND ("Manager" OR "Lead" OR "Director" OR "Head of" OR "VP"))";
-    const std::string senior_ic_search_query = R"(site:{} ("Lead" OR "Senior" OR "Staff" OR "Principal" OR "Distinguished" OR "Architect") AND ("Engineer" OR "Cloud" OR "SRE" OR "Site Reliability" OR "DevOps" OR "Platform" OR "Infrastructure" OR "Systems" OR "Linux" OR "Production Engineer" OR "Core Services" OR "Backend" OR "Systems Design"))";
-    const std::string mid_ic_search_query = R"(site:{} ("Engineer" OR "SRE" OR "DevOps" OR "Platform" OR "Backend" OR "Production Engineer" OR "Core Services" OR "Software Engineer" OR "Cloud Engineer") -Senior -Staff -Principal -Lead -Architect)";
-    const std::string key_tech_search_query = R"(site:{} ("Kubernetes" OR "Docker" OR "Terraform" OR "Infrastructure as Code" OR "IaC" OR "CI/CD" OR "AWS" OR "GCP" OR "Azure" OR "Python" OR "Linux" OR "Prometheus" OR "Grafana" OR "OpenTelemetry" OR "Ansible" OR "Datadog" OR "GitOps"))";
+    constexpr std::string_view mgmt_search_query = R"(site:{} ("Engineering" OR "SRE" OR "Site Reliability" OR "DevOps" OR "Platform" OR "Infrastructure" OR "Observability" OR "Production Platform") AND ("Manager" OR "Lead" OR "Director" OR "Head of" OR "VP"))";
+    constexpr std::string_view senior_ic_search_query = R"(site:{} ("Lead" OR "Senior" OR "Staff" OR "Principal" OR "Distinguished" OR "Architect") AND ("Engineer" OR "Cloud" OR "SRE" OR "Site Reliability" OR "DevOps" OR "Platform" OR "Infrastructure" OR "Systems" OR "Linux" OR "Production Engineer" OR "Core Services" OR "Backend" OR "Systems Design"))";
+    constexpr std::string_view mid_ic_search_query = R"(site:{} ("Engineer" OR "SRE" OR "DevOps" OR "Platform" OR "Backend" OR "Production Engineer" OR "Core Services" OR "Software Engineer" OR "Cloud Engineer") -Senior -Staff -Principal -Lead -Architect)";
+    constexpr std::string_view key_tech_search_query = R"(site:{} ("Kubernetes" OR "Docker" OR "Terraform" OR "Infrastructure as Code" OR "IaC" OR "CI/CD" OR "AWS" OR "GCP" OR "Azure" OR "Python" OR "Linux" OR "Prometheus" OR "Grafana" OR "OpenTelemetry" OR "Ansible" OR "Datadog" OR "GitOps"))";
 
     // --- 3. GENERATE AND SAVE QUERIES ---
     const std::string output_filename = "generated_google_alerts.txt";

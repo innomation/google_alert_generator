@@ -25,6 +25,8 @@ Shopify,shopify.com/careers/search/jobs/
 Twitch,careers.twitch.com/en/career-posts/
 Veeva,careers.veeva.com/job/
 Zapier,jobs.ashbyhq.com/zapier/
+# Canada
+Honeycomb,https://job-boards.greenhouse.io/honeycomb/jobs/
 # Crypto
 Coinbase,coinbase.com/careers/positions/
 # Education
