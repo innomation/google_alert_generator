@@ -33,7 +33,7 @@ For the C++ version: A C++20 compatible compiler (e.g., GCC 10+, Clang 12+, MSVC
 
 Clone the repository:
 
-    git clone [https://github.com/your-username/google-alert-generator.git](https://github.com/your-username/google-alert-generator.git)
+    git clone git@github.com:innomation/google_alert_generator.git
     cd google-alert-generator
 
 Configure your target sites:
